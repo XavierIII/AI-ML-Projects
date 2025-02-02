@@ -382,8 +382,8 @@ def main():
         calls = pd.DataFrame()
         puts = pd.DataFrame()
 
-    # Select option based on signal
-    selected_option, option_type = select_option(data, signal)
+]   # Select option based on signal
+    selected_option, option_type = select_option(data, signal, calls, puts)
 
     # Compile recommendation
     if selected_option is not None:
