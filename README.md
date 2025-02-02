@@ -10,7 +10,7 @@ This repository is a collection of machine learning and artificial intelligence 
 
 ### 1. Project Name
 - **Description**: Brief description of the project.
-- **Technologies Used**: List of technologies and tools used.
+- **Technologies Used**: Transformers, LangChain, LlamaIndex, AI Agents, Streamlit
 - **Key Features**: Highlight key features or functionalities.
 - **Usage**: Instructions on how to use or run the project.
 
