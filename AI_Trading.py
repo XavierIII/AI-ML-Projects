@@ -258,7 +258,7 @@ def generate_signal(data, current_state):
 
 
 # Select option based on signal
-def select_option(data, signal):
+def select_option(data, signal, calls, puts):
     current_price = data['Adj Close'].iloc[-1]
     if signal == 'Buy Call Option' and not calls.empty:
         # Filter calls with delta close to desired_delta
